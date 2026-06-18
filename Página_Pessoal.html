@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Página Pessoal</title>
+        <style>
+            .nome{
+                background-color: #1a2b4c;
+                color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-top: 20px;
+                height: 100px;
+            }
+            .nome h1{
+                text-align: center;
+            }
+            .image{
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+            .container{
+                display: flex;
+                background-color: lightgray;
+                max-width: 1000px;
+                width: 90%;
+                padding: 20px;
+                margin: auto;
+                box-sizing: border-box;
+            }
+            .item{
+                padding: 40px;
+                flex: 1;
+            }
+            .item:not(:last-child){
+                border-right: 4px solid black;
+            }
+            a{
+                color: #1a2b4c;
+                text-decoration:none;
+            }
+            a:hover{
+                color: #3b5998;
+            }
+            h2 {
+                color: #1a2b4c;
+            }
+            .tecnologias {
+                max-width: 1000px;
+                width: 90%;
+                margin: auto;
+                background-color: lightgray;
+                padding: 40px;
+                box-sizing: border-box;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="nome"><img class="nome image" src="Foto normal GabrielPerecim.jpeg" alt="Foto Gabriel Perecim"><h1>Gabriel Gonçalves de Souza Perecim</h1></header>
+        <div class="container">
+            <div class="item">
+                <h2>Áreas de interesse:</h2>
+                <ul>
+                    <li>Desenvolvimento e Programação full-stack (principalmente back-end)</li>
+                    <li>Infraestrutura</li>
+                </ul>
+            </div>
+            <div class="item">
+                <h2>Sobre mim:</h2>
+                <p>Sou um estudante de Análise e Desenvolvimento de Sistemas na Fatec de Ribeirão Preto, em busca de novos conhecimentos, vontade de aprender, gosto de desafios para aprimorar meus conhecimentos e colocá-los em prática.</p>
+                <p>Em busca de oportunidades de estágio em desenvolvimento back-end.</p>
+            </div>
+            <div class="item">
+                <h2>Links úteis e Forma de Contato:</h2>
+                <ul>
+                    <li><a href="https://github.com/GabrielPerecim">Meu GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/gabriel-perecim-28b37b1a2/">Meu LinkedIn</a></li>
+                    <li><a href="mailto:gabrielgsperecim@gmail.com">Meu Email</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="tecnologias">
+            <h2>Tecnologias:</h2>
+            <ul>
+                <li>C#</li>
+                <li>HTML & CSS</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </div>
+    </body>
+</html>
